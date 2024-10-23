@@ -27,12 +27,6 @@ go = function() end
 ---@param t table
 ---@return fun(t: table) actor
 actor = function(t) end
---- Insert a Gizmo. Also works on Container Gizmos.
---- ```lua
---- GoodBoy = Rect:new()
---- AddGizmo(Goodboy)
---- ```
-AddGizmo = function(gizmo) end
 --- Insert a gimmick. `plr` is an optional key in the table passed to
 --- `gimmick`, and defaults to `nil`. Self-returning and chainable.
 --- ```lua
