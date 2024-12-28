@@ -1,6 +1,6 @@
 ---@meta
 
---- Insert a Gizmo. Also works on Containers.
+--- Insert a Gizmo. Also available as a Container command.
 --- ```lua
 --- GoodBoy = Rect:new()
 --- AddGizmo(Goodboy)

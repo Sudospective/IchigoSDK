@@ -24,17 +24,17 @@ function Container:GetActor() end
 function Container:AddGizmo(child) end
 
 --- Equivalent to an ActorScroller.
----@class RollingContainer : ActorScroller
+---@class ScrollingContainer : ActorScroller
 ---@field private __actor table
 ---@field private __type "ActorScroller"
-RollingContainer = {}
+ScrollingContainer = {}
 ---@return self
-function RollingContainer:new() end
+function ScrollingContainer:new() end
 ---@return ActorScroller
-function RollingContainer:GetActor() end
+function ScrollingContainer:GetActor() end
 ---@param child Gizmo
 ---@return self
-function RollingContainer:AddGizmo(child) end
+function ScrollingContainer:AddGizmo(child) end
 
 --- Equivalent to a Quad.
 ---@class Rect : Quad

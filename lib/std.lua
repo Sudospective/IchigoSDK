@@ -5,9 +5,12 @@ plr = nil
 --- The note(s) to use for notegimmicks.
 notes = nil
 
---- Returns whether the game is paused.
+--- Returns whether the game is paused. If a boolean
+--- is provided, pauses or unpauses the game based on
+--- `val`.
+---@param val boolean?
 ---@return boolean paused
-yasumi = function() end
+yasumi = function(val) end
 --- Change the rate at which gimmicks update.
 ---@param time float
 updatetime = function(time) end

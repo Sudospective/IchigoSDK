@@ -96,10 +96,14 @@ run = function(path) end
 ---@param name string
 include = function(name) end
 
---- Get a setting by name from `settings.ini`.
+--- Get a setting from a category in `settings.ini`.
+--- If no value is found and a default is provided,
+--- it will write the value to `settings.ini`.
+---@param category string
 ---@param name string
+---@param default any?
 ---@return any
-setting = function(name) end
+setting = function(category, name, default) end
 
 --- The intended height of the gimmick file.
 ---@type integer
